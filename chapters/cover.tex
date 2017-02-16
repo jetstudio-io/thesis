@@ -1,0 +1,126 @@
+\documentclass[10pt]{book}
+
+%%%%%%%%%%
+% Packages utilises
+%%%%%%%%%%
+% Langue
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel} % On peut aussi mettre english ici.
+% Figures et couleurs
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{color}
+\definecolor{gris}{gray}{0.45}
+% Font math
+\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{dsfont}
+% Mise en page latex et police
+\usepackage{vmargin}
+
+%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%
+
+%\addtocounter{page}{-1} % Pour revenir a 0 dans la numerotation des pages.
+
+%%%%%%%%%%
+% PREMIERE DE COUVERTURE
+%%%%%%%%%%
+
+\newlength{\plarg}
+\setlength{\plarg}{8cm}
+\newlength{\glarg}
+\setlength{\glarg}{14cm}
+\newlength{\Glarg}
+\setlength{\Glarg}{15cm}
+
+\begin{titlepage}
+\thispagestyle{empty}
+%\noindent
+%\noindent
+%\begin{minipage}{\glarg}
+%{\large LOGO labo} \hfill {\large LOGO Ecole} 
+%{\rule{\glarg}{1pt}} \vspace{-1cm}
+%\begin{center}
+%\begin{tabular}{p{13cm}r}
+%\hspace{-2mm}\textbf{Nom Labo} & \textbf{LABO} \\
+%\hspace{-2mm}Nom complet & Section \dots \\
+%\hspace{-2mm}du laboratoire & 
+%\end{tabular}
+%\end{center}
+%\end{minipage}
+
+\vspace{-1cm}
+\begin{minipage}{\glarg}
+\vspace{-4.5cm}
+\hspace{-1.5cm}{\color{gris}\large\bf Order N$^o$  : \hspace{10cm} \bf YEAR 2010}
+\end{minipage}
+\vspace{-2cm}
+\begin{figure}[htp]
+\center
+\hspace{-1cm}\includegraphics[angle=0,width=16cm]{Logos.png}
+\end{figure}
+
+\begin{center}
+\begin{minipage}{\glarg}
+\vspace{0.5cm}
+\centering{\Large\bfseries THESIS / UNIVERSITY OF RENNES 1}\\ \vspace{0mm}\emph{\Large under the seal of the European University of Brittany}\\ \vspace{0.5cm}
+{\Large for the degree of}\\ \vspace{2mm}
+{\Large\bf DOCTOR OF THE UNIVERSITY OF RENNES 1}\\ \vspace{0.4cm}
+\emph{\Large Mention : (Signal Processing)}\\ \vspace{2mm}
+{\Large\bf Ecole doctorale (MATISSE)}\\ \vspace{0.3cm}
+{\Large presented by} \\ \vspace{3mm}
+{\Huge\bf Hung-Manh PHAM}\\ \vspace{0.4cm}
+{\Large pr\'epar\'ee \`a l'unit\'e de recherche (n$^o$ + nom abr\'eg\'e)\\
+(Nom d\'evelopp\'e de l'unit\'e)\\
+(Composante universitaire)}\vspace{0.3cm}
+\\
+\hspace{-20mm}{\rule{\Glarg}{1pt}}\\
+\vspace{8mm}
+
+\begin{tabular}{p{7cm}p{10cm}}
+\begin{minipage}{\plarg}
+\vspace{-4cm}
+\hspace{-1.8cm}{\huge\bf Embedded Computing}\vspace{5mm}
+
+\hspace{-1.8cm}{\huge\bf Architecture with }\vspace{5mm}
+
+\hspace{-1.8cm}{\huge\bf Dynamic Hardware}\vspace{5mm}
+
+\hspace{-1.8cm}{\huge\bf Reconfiguration for}\vspace{5mm}
+
+\hspace{-1.8cm}{\huge\bf Intelligent Automotive}\vspace{5mm}
+
+\hspace{-1.8cm}{\huge\bf Systems}\vspace{5mm}
+
+\end{minipage}
+&
+\begin{minipage}{\plarg}
+{\large\bf Th\`ese soutenue \`a (lieu)\vspace{1mm}\newline}
+{\large\bf le (date)\vspace{2mm}\newline}
+{\large devant le jury compos\'e de : \vspace{2mm}\newline}
+{\Large\bf Albert EINSTEIN\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! pr\'esident\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! rapporteur\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! rapporteur\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! examinateur\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! examinateur\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! examinateur\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! directeur de th\`ese\vspace{1mm}\newline}
+{\Large\bf Pr\'enom NOM\vspace{0mm}\newline}
+{ Fonction + \'etablissement \!/\! co-directeur de th\`ese}
+
+\end{minipage}
+\end{tabular}
+
+\end{minipage}
+\end{center}
+\end{titlepage}
+
+\end{document}

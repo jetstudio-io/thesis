@@ -1,0 +1,31 @@
+\select@language {english}
+\contentsline {chapter}{Abbreviations}{ii}{dummy.4}
+\select@language {frenchb}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Wireless Sensor Networks}{1}{chapter.21}
+\contentsline {chapter}{\numberline {2}Energy-efficiency MAC protocols for Wireless Sensor Networks}{2}{chapter.22}
+\contentsline {section}{\numberline {2.1}Energy-efficiency MAC protocols}{2}{section.23}
+\contentsline {chapter}{\numberline {3}Fast Traffic Adaptive MAC protocol}{3}{chapter.24}
+\contentsline {section}{\numberline {3.1}Protocol design}{3}{section.25}
+\contentsline {subsection}{\numberline {3.1.1}Traffic Status Register (TSR) based protocol}{3}{subsection.26}
+\contentsline {subsection}{\numberline {3.1.2}Fast Traffic Adaptive (FTA) MAC protocol design}{3}{subsection.27}
+\contentsline {subsection}{\numberline {3.1.3}Frame structure}{3}{subsection.28}
+\contentsline {subsection}{\numberline {3.1.4}Energy consumption models}{3}{subsection.29}
+\contentsline {section}{\numberline {3.2}Implementation}{3}{section.30}
+\contentsline {section}{\numberline {3.3}Evaluation}{3}{section.31}
+\contentsline {chapter}{\numberline {4}FTA-MAC Extensions}{4}{chapter.32}
+\contentsline {chapter}{\numberline {5}Aggregation MAC protocol}{5}{chapter.33}
+\contentsline {section}{\numberline {5.1}State of the art}{5}{section.34}
+\contentsline {section}{\numberline {5.2}Aggregation MAC protocols}{5}{section.35}
+\contentsline {subsection}{\numberline {5.2.1}Fixed Aggregation}{5}{subsection.36}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Protocol design}{5}{subsubsection.37}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Aggregated packet structure}{7}{subsubsection.40}
+\contentsline {subsection}{\numberline {5.2.2}Dynamic Decision Aggregation}{8}{subsection.46}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Limitation of Fixed Aggregation}{8}{subsubsection.47}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Dynamic Decision Aggregation}{9}{subsubsection.49}
+\contentsline {section}{\numberline {5.3}Implementation and Evaluation}{11}{section.54}
+\contentsline {subsection}{\numberline {5.3.1}Implementation of the aggregation MAC protocols in RICER3}{11}{subsection.55}
+\contentsline {subsubsection}{\numberline {5.3.1.1}RICER3 Fixed Aggregation (RICER3-FA)}{11}{subsubsection.56}
+\contentsline {subsection}{\numberline {5.3.2}Evaluation}{11}{subsection.58}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Simulation parameters}{11}{subsubsection.59}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Results}{11}{subsubsection.60}

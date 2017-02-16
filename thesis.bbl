@@ -1,0 +1,33 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[yi~A.~Lin and Rabaey(2004)]{ricer}
+En~yi~A.~Lin and Jan~M. Rabaey.
+\newblock {Power-efficient rendez-vous schemes for dense wireless sensor
+  networks}.
+\newblock In \emph{Proceedings of the 11$^{\textrm th}$ IEEE International
+  Conference on Communications (ICC)}, pages 3769--3776, June 2004.
+
+\bibitem[Van~Thiep et~al.(2016)Van~Thiep, Gautier, and Berder]{fta-mac}
+Nguyen Van~Thiep, Matthieu Gautier, and Oliver Berder.
+\newblock {FTA-MAC: Fast Traffic Adaptive energy efficient MAC protocol for
+  Wireless Sensor Networks}.
+\newblock In \emph{Proceedings of the 11$^{\textrm th}$ International
+  Conference on Cognitive Radio Oriented Wireless Networks (CROWNCOM 2016)},
+  pages 207--219, May 2016.
+\newblock ISBN 978-3-319-40352-6.
+\newblock \doi{10.1007/978-3-319-40352-6_17}.
+
+\bibitem[Alam et~al.(2012)Alam, Berder, Menard, and Sentieys]{tad-mac}
+Muhammad~Mahtab Alam, Olivier Berder, Daniel Menard, and Olivier Sentieys.
+\newblock {TAD-MAC: Traffic-Aware Dynamic MAC Protocol for Wireless Body Area
+  Sensor Networks}.
+\newblock \emph{IEEE Journal on Emerging and Selected Topics in Circuits and
+  Systems}, 2\penalty0 (1):\penalty0 109--119, 2012.
+\newblock \doi{http://dx.doi.org/10.1109/JETCAS.2012.2187243}.
+
+\end{thebibliography}
